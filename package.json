@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react-feather": "file:react-feather",
+    "@aw-web-design/react-feather": "^3.1.42",
     "daisyui": "^2.14.2",
     "next": "12.1.5",
     "react": "18.0.0",

@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import QRCode from "react-qr-code";
 import { useCallback, useState } from "react";
-import { Twitter, GitHub } from "../react-feather/src";
+import { Twitter, GitHub } from "@aw-web-design/react-feather";
 import Link from "next/link";
 import Head from "next/head";
 
