@@ -60,20 +60,17 @@ const Home: NextPage = () => {
         />
         <meta property="og:image" content="https://slurp.li/metatags.png" />
 
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.slurp.li/" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://www.slurp.li/" />
         <meta
-          property="twitter:title"
+          name="twitter:title"
           content="free, no bullshit QR Code generator"
         />
         <meta
-          property="twitter:description"
+          name="twitter:description"
           content="here you don't have to signup for us to spam you with unwanted dogshit"
         />
-        <meta
-          property="twitter:image"
-          content="https://slurp.li/metatags.png"
-        />
+        <meta name="twitter:image" content="https://slurp.li/metatags.png" />
 
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
