@@ -35,17 +35,15 @@ const Home: NextPage = () => {
 
   return (
     <div className="h-screen flex flex-col">
-      <div className="flex justify-center items-center h-[400px]">
-        <div className="text-9xl font-black">slurp.li</div>
+      <div className="flex justify-center items-center h-36 sm:h-96">
+        <div className="text-6xl sm:text-9xl font-black">slurp.li</div>
       </div>
       <div className="flex justify-center">
         <div className="flex flex-col">
           <div className="flex justify-center">
             <QRCode id="QRCode" value={url || "https://slurp.li"} />
           </div>
-
-          <div className="p-10"></div>
-          <div className="form-control w-full max-w-xs">
+          <div className="form-control w-full max-w-xs p-5 sm:p-10">
             <label className="label">
               <span className="label-text">your awsome website url</span>
             </label>
@@ -60,29 +58,31 @@ const Home: NextPage = () => {
               }}
             />
           </div>
-          <div className="p-10 flex justify-center">
+          <div className="p-5 sm:p-10 flex justify-center">
             <button className="btn btn-secondary" onClick={onDownload}>
               Download
             </button>
           </div>
         </div>
       </div>
-      <div className="mt-auto h-12 flex justify-between items-center">
-        <div className="p-2">© 2022 Dominique Garmier</div>
-        <div className="flex">
-          <div className="p-2">
-            <Link href="https://twitter.com/dominiqgarmier">
-              <a>
-                <Twitter />
-              </a>
-            </Link>
-          </div>
-          <div className="p-2">
-            <Link href="https://github.com/dominiquegarmier">
-              <a>
-                <GitHub />
-              </a>
-            </Link>
+      <div className="mt-auto flex justify-center">
+        <div className="h-12 flex justify-between items-center w-full max-w-[900px]">
+          <div className="p-2">© 2022 Dominique Garmier</div>
+          <div className="flex">
+            <div className="p-2">
+              <Link href="https://twitter.com/dominiqgarmier">
+                <a>
+                  <Twitter />
+                </a>
+              </Link>
+            </div>
+            <div className="p-2">
+              <Link href="https://github.com/dominiquegarmier">
+                <a>
+                  <GitHub />
+                </a>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
