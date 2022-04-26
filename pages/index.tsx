@@ -58,7 +58,7 @@ const Home: NextPage = () => {
           property="og:description"
           content="here you don't have to signup for us to spam you with unwanted dogshit"
         />
-        <meta property="og:image" content="/metatags.png" />
+        <meta property="og:image" content="https://slurp.li/metatags.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.slurp.li/" />
@@ -70,7 +70,10 @@ const Home: NextPage = () => {
           property="twitter:description"
           content="here you don't have to signup for us to spam you with unwanted dogshit"
         />
-        <meta property="twitter:image" content="/metatags.png" />
+        <meta
+          property="twitter:image"
+          content="https://slurp.li/metatags.png"
+        />
 
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
