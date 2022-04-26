@@ -38,7 +38,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>slurp.li - QR Code generator</title>
-        <meta name="title" content="free, no bullshit QR Code generator" />
+        <meta name="title" content="free, No Bullshit QR Code generator" />
         <meta
           name="description"
           content="here you don't have to signup for us to spam you with unwanted dogshit"
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
         <meta property="og:url" content="https://www.slurp.li/" />
         <meta
           property="og:title"
-          content="free, no bullshit QR Code generator"
+          content="free, No Bullshit QR Code generator"
         />
         <meta
           property="og:description"
@@ -64,7 +64,7 @@ const Home: NextPage = () => {
         <meta name="twitter:url" content="https://www.slurp.li/" />
         <meta
           name="twitter:title"
-          content="free, no bullshit QR Code generator"
+          content="free, No Bullshit QR Code generator"
         />
         <meta
           name="twitter:description"
@@ -85,7 +85,7 @@ const Home: NextPage = () => {
               slurp.li
             </div>
             <div className="p-2 text-xl sm:text-3xl">
-              your no bullshit QR Code generator
+              your No Bullshit QR Code generator
             </div>
           </div>
         </div>
