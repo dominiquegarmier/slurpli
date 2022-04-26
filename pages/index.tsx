@@ -118,7 +118,14 @@ const Home: NextPage = () => {
         </div>
         <div className="mt-auto flex justify-center">
           <div className="h-12 flex justify-between items-center w-full max-w-[900px]">
-            <div className="p-2">© 2022 Dominique Garmier</div>
+            <div className="p-2 text-sm sm:text-md">
+              © 2022 Dominique Garmier
+            </div>
+            <div className="p-2 text-sm md:text-base">
+              <Link href="https://github.com/dominiquegarmier/slurpli">
+                <a>source</a>
+              </Link>
+            </div>
             <div className="flex">
               <div className="p-2">
                 <Link href="https://twitter.com/dominiqgarmier">
