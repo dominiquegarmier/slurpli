@@ -128,7 +128,7 @@ const Home: NextPage = () => {
             </div>
             <div className="flex">
               <div className="p-2">
-                <Link href="https://twitter.com/dominiqgarmier">
+                <Link href="https://twitter.com/dominiqugarmier">
                   <a>
                     <Twitter />
                   </a>
